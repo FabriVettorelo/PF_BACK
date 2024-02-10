@@ -9,7 +9,7 @@ require('./db.js');
 
 const server = express();
 
-server.name = 'FinalProyect';
+server.name = 'sportiverse';
 
 
 server.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
